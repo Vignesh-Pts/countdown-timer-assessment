@@ -3,11 +3,15 @@ import { CommonModule } from '@angular/common';
 import { interval, Observable } from "rxjs";
 import { map, shareReplay } from "rxjs/operators";
 import { ICountDownTimer } from '../common/interface/countdown-timer';
+import { CounterCardComponent } from '../components/counter-card/counter-card.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule],
+  imports: [
+    CommonModule,
+    CounterCardComponent
+  ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })

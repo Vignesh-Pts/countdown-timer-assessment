@@ -1,0 +1,27 @@
+
+.counter-container {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4em;
+    
+    .counter-value {
+        width: 200px;
+        height: 200px;
+        background: linear-gradient(to bottom, #2b2c43 50%, #33384f 50%); /* Top color to bottom color */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 6em;
+        font-weight: 700;
+        border-radius: 15px;
+        box-shadow: 0 0.15em 0 0 black;
+    }
+
+    .counter-for {
+        color: #5b5869;
+        margin-top: 1em;
+        font-size: 1.5em;
+        font-weight: 600;
+        text-align: center;
+    }
+}

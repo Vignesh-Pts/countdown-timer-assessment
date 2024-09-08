@@ -1,0 +1,18 @@
+.countdown-timer-container {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.title {
+    margin-bottom: 10em;
+    letter-spacing: 5px;
+}
+
+.timer {
+    display: flex;
+    color: #fb638f;
+}
