@@ -1,0 +1,10 @@
+
+<div class="countdown-timer-container">
+    <h3 class="title">WE'RE LAUNCHING SOON</h3>
+    <div class="timer" *ngIf="(timeLeft$ | async) as t;">
+      <app-counter-card counterFor="Days" [counterValue]="t.days"></app-counter-card>
+      <app-counter-card counterFor="Hours" [counterValue]="t.hours"></app-counter-card>
+      <app-counter-card counterFor="Minutes" [counterValue]="t.minutes"></app-counter-card>
+      <app-counter-card counterFor="Seconds" [counterValue]="t.seconds"></app-counter-card>
+    </div>
+  </div>
