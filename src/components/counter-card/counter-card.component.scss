@@ -1,8 +1,23 @@
+/* Mobile styles (up to 600px) */
+@media (max-width: 600px) {
+    .counter-container  {
+        .counter-value {
+            width: 75px !important;
+            height: 75px !important;
+            font-size: 2em !important;
+            font-weight: 600 !important;
+        }
+    
+        .counter-for {
+            font-size: 1.2em !important;
+            font-weight: 600 !important;
+        }
+    }
+}
 
 .counter-container {
     display: flex;
     flex-direction: column;
-    margin-right: 4em;
     
     .counter-value {
         width: 200px;

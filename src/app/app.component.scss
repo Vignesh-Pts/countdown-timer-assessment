@@ -5,14 +5,30 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
+
+    .title {
+        margin-bottom: 10em;
+        letter-spacing: 5px;
+        text-align: center;
+    }
+    
+    .timer {
+        display: flex;
+        color: #fb638f;
+        gap: 3em;
+    }
 }
 
-.title {
-    margin-bottom: 10em;
-    letter-spacing: 5px;
-}
+/* Mobile styles (up to 600px) */
+@media (max-width: 600px) {
+    .countdown-timer-container {
+        .title {
+            margin-bottom: 5em !important;
+        }
 
-.timer {
-    display: flex;
-    color: #fb638f;
+        .timer {
+            margin: 0 1em;
+            gap: 1em !important;
+        }
+    }
 }
